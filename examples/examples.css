@@ -1,4 +1,4 @@
-.error {
+LABEL.error {
 	width: 98%;
 	padding: 1%;
 	background: #c00;
@@ -11,3 +11,4 @@
 #footer {
 	padding: 1%;
 }
+

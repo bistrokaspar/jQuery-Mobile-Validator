@@ -17,6 +17,7 @@
 			<h1>BEFORE test</h1>
 		</div>
 		<div data-role="content">
+			<p>Try mashing the submit button without selecting anything.</p>
 			<form method="get" action="#">
 				<div data-role="fieldcontain">
 					<select name="test1" id="test1" class="required">
@@ -26,6 +27,37 @@
 						<option value="3">Option #3</option>
 						<option value="4">Option #4</option>
 					</select>
+				</div>
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup">
+						<legend>Choose a pet:</legend>
+						<input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" class="required">
+						<label for="radio-choice-1">Cat</label>
+						<input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2" class="required">
+						<label for="radio-choice-2">Dog</label>
+						<input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3" class="required">
+						<label for="radio-choice-3">Hamster</label>
+						<input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4" class="required">
+						<label for="radio-choice-4">Lizard</label>
+					</fieldset>
+				</div>
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup">
+						<legend>Choose as many snacks as you'd like:</legend>
+						<input type="checkbox" name="checkbox-1a" id="checkbox-1a" class="required">
+						<label for="checkbox-1a">Cheetos</label>
+						<input type="checkbox" name="checkbox-1a" id="checkbox-2a" class="required">
+						<label for="checkbox-2a">Doritos</label>
+						<input type="checkbox" name="checkbox-1a" id="checkbox-3a" class="required">
+						<label for="checkbox-3a">Fritos</label>
+						<input type="checkbox" name="checkbox-1a" id="checkbox-4a" class="required">
+						<label for="checkbox-4a">Sun Chips</label>
+					</fieldset>
+				</div>
+				<div data-role="fieldcontain">
+					<legend>Agree to the terms:</legend>
+					<input type="checkbox" name="checkbox-1" id="checkbox-1" class="required" value="1">
+					<label for="checkbox-1">I agree</label>
 				</div>
 				<div data-role="fieldcontain">
 					<button data-inline="true">Submit this form!</button>
