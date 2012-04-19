@@ -10,5 +10,5 @@ Include the jquery.mobile.validator.js file after including the jquery.validator
 
 See the examples directory for before and after examples.
 
-OR [click here to view example usage](http://powers1.net/files/jqmv/examples/). 
+OR [click here to view example usage](http://leepowers.net/files/jqmv/examples/). 
 
